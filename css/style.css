@@ -1,21 +1,29 @@
-.inline-block{
-    display: inline-block;
-    vertical-align: top;
+
+.navigation{
+    list-style-type: none;
+    background-color: #373738;
+    display: flex;
+    text-align: center;
+    margin: 0px;
+    padding-right: 0px;
+    overflow: hidden;
+    height: 80px;
+}
+.navItem{
+    padding: 10px;
+    padding-top: 30px;
 }
 .logo{
-    width: 23%;
-    padding: 1%;
+    width: 0px;
+    padding: 0px;
     text-align: center;
+    margin-right: auto;
 }
-.nav{
-    width: 73%;
-    padding: 1%;
+.navigation a{
+text-decoration: none;
+color: white;
 }
 
-.ul{
-    width: 50%;
-    margin-left: auto;
-}
 .heroImg{
     height: 600px;
     padding: 25px;
@@ -24,10 +32,24 @@
     width: 500px;
     padding: 25px;
     margin: 0 auto;
+    height: 100%;
 }
 .footer{
     display: inline-block;
-    vertical-align: top;
     background-color: #373738;
     padding: 25px;
+    display: flex;
+    position: relative;
+    margin-top: 500px;
+    padding-left: 520px;
+}
+.footerItem{
+    padding: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
 }
